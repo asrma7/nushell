@@ -4,3 +4,8 @@ starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.n
 source ~/.zoxide.nu
 
 source init.nu
+$env.config = {
+  shell_integration: {
+    osc133: false
+  }
+}
