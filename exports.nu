@@ -9,6 +9,7 @@ path add ".bun/bin"
 path add ".cargo/bin"
 path add "go/bin"
 path add "/snap/bin"
+path add "/opt/google-cloud-sdk/bin"
 
 $env.MANPAGER = "nvim +Man!"
 $env.MANWIDTH = "999"
