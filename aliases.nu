@@ -59,3 +59,6 @@ alias gr = git rebase
 alias kc = kubectl
 
 alias lg = lazygit
+alias lsql = lazysql
+
+alias oo = cd ~/obsidian-vault

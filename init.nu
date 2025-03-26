@@ -30,3 +30,4 @@ $env.config = ($env.config | merge {
 
 source aliases.nu
 source exports.nu
+source functions.nu
