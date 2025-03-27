@@ -17,8 +17,6 @@ def l. [] { ls -all | where name starts-with "." | sort }
 alias .. = cd ..
 
 alias config = cd ~/.config
-alias ndot = ~/.config/scripts/ndot.sh
-alias tmux-sessionizer = ~/.config/scripts/tmux-sessionizer
 
 alias grep = grep --color=auto
 alias sshk = kitty +kitten ssh
