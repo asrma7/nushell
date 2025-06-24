@@ -60,3 +60,9 @@ alias lg = lazygit
 alias lsql = lazysql
 
 alias oo = cd ~/obsidian-vault
+
+alias asr = atuin scripts run
+alias asl = atuin scripts list
+alias asd = atuin scripts rm
+alias ase = atuin scripts edit
+alias asn = atuin scripts new

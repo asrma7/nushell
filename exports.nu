@@ -11,6 +11,7 @@ path add "go/bin"
 path add "/snap/bin"
 path add "/opt/google-cloud-sdk/bin"
 path add "~/.config/scripts"
+path add "~/.atuin/bin"
 
 $env.MANPAGER = "nvim +Man!"
 $env.MANWIDTH = "999"
