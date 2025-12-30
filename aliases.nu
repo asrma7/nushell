@@ -2,6 +2,9 @@ alias vim = nvim
 alias vi = nvim
 alias nvc = nvim ~/.config/nvim/
 
+alias cat = bat
+alias catt = bat --paging=never
+
 alias work = cd ~/projects
 alias dot = cd ~/dotfiles
 
@@ -66,3 +69,5 @@ alias asl = atuin scripts list
 alias asd = atuin scripts rm
 alias ase = atuin scripts edit
 alias asn = atuin scripts new
+
+alias tweak = ~/theos/bin/nic.pl
