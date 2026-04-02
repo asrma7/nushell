@@ -22,5 +22,10 @@ $env.EDITOR = "nvim"
 $env.KUBE_EDITOR = "nvim"
 $env.THEOS = "~/theos"
 $env.ANDROID_HOME = "/opt/android-sdk"
+$env.CHROME_EXECUTABLE = "/usr/bin/google-chrome-stable"
 
 $env.PATH = ($env.PATH | uniq)
+
+# FNM setup
+fnm env --json | from json | load-env
+path add ($env.FNM_MULTISHELL_PATH + "/bin")

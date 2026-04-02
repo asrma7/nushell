@@ -1,8 +1,8 @@
 alias vim = nvim
 alias vi = nvim
+alias nano = nvim
 alias nvc = nvim ~/.config/nvim/
 
-alias cat = bat
 alias catt = bat --paging=never
 
 alias work = cd ~/projects
@@ -71,3 +71,5 @@ alias ase = atuin scripts edit
 alias asn = atuin scripts new
 
 alias tweak = ~/theos/bin/nic.pl
+
+alias venv = sh -i -c 'source .venv/bin/activate ; nu'
