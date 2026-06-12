@@ -6,7 +6,6 @@ alias nvc = nvim ~/.config/nvim/
 alias catt = bat --paging=never
 
 alias work = cd ~/projects
-alias dot = cd ~/dotfiles
 
 alias :q = exit
 
@@ -70,6 +69,10 @@ alias asd = atuin scripts rm
 alias ase = atuin scripts edit
 alias asn = atuin scripts new
 
-alias tweak = ~/theos/bin/nic.pl
-
 alias venv = sh -i -c 'source .venv/bin/activate ; nu'
+
+alias cce = chezmoi edit
+alias cca = chezmoi add
+alias ccd = chezmoi cd
+alias cst = chezmoi status
+alias ccp = chezmoi apply
