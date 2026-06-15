@@ -71,8 +71,9 @@ alias asn = atuin scripts new
 
 alias venv = sh -i -c 'source .venv/bin/activate ; nu'
 
-alias cce = chezmoi edit
+alias ccu = chezmoi update
 alias cca = chezmoi add
+alias ccr = chezmoi forget
 alias ccd = chezmoi cd
-alias cst = chezmoi status
-alias ccp = chezmoi apply
+alias cce = chezmoi edit
+alias ccs = chezmoi apply
