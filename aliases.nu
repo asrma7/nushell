@@ -1,7 +1,7 @@
 alias vim = nvim
 alias vi = nvim
 alias nano = nvim
-alias nvc = nvim ~/.config/nvim/
+alias nvc = chezmoi edit ~/.config/nvim/
 
 alias catt = bat --paging=never
 
